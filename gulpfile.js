@@ -113,7 +113,7 @@ gulp.task('serve', () => {
     });
 
     gulp.watch([
-      'src/*.html',
+      'src/**/*.html',
       'src/images/**/*',
       '.tmp/fonts/**/*'
     ]).on('change', reload);
